@@ -15,7 +15,7 @@ class Plugin extends PuppeteerExtraPlugin {
   }
 
   get name() {
-    return 'stealth/evasions/chrome.runtime'
+    return 'custom-fingerprinting/evasions/chrome.runtime'
   }
 
   get defaults() {

@@ -14,7 +14,7 @@ class Plugin extends PuppeteerExtraPlugin {
   }
 
   get name() {
-    return 'stealth/evasions/media.codecs'
+    return 'custom-fingerprinting/evasions/media.codecs'
   }
 
   async onPageCreated(page) {

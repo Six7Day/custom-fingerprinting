@@ -15,7 +15,7 @@ class Plugin extends PuppeteerExtraPlugin {
   }
 
   get name() {
-    return 'stealth/evasions/navigator.languages'
+    return 'custom-fingerprinting/evasions/navigator.languages'
   }
 
   get defaults() {

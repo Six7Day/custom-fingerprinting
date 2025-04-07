@@ -19,7 +19,7 @@ class Plugin extends PuppeteerExtraPlugin {
   }
 
   get name() {
-    return 'stealth/evasions/webgl.vendor'
+    return 'custom-fingerprinting/evasions/webgl.vendor'
   }
 
   /* global WebGLRenderingContext WebGL2RenderingContext */

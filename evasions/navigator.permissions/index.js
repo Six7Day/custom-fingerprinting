@@ -16,7 +16,7 @@ class Plugin extends PuppeteerExtraPlugin {
   }
 
   get name() {
-    return 'stealth/evasions/navigator.permissions'
+    return 'custom-fingerprinting/evasions/navigator.permissions'
   }
 
   /* global Notification Permissions PermissionStatus */

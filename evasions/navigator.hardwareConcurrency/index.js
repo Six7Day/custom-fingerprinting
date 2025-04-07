@@ -19,7 +19,7 @@ class Plugin extends PuppeteerExtraPlugin {
   }
 
   get name() {
-    return 'stealth/evasions/navigator.hardwareConcurrency'
+    return 'custom-fingerprinting/evasions/navigator.hardwareConcurrency'
   }
 
   get defaults() {

@@ -29,7 +29,7 @@ class Plugin extends PuppeteerExtraPlugin {
   }
 
   get name() {
-    return 'stealth/evasions/navigator.plugins'
+    return 'custom-fingerprinting/evasions/navigator.plugins'
   }
 
   async onPageCreated(page) {

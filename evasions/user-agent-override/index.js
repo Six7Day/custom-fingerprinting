@@ -47,7 +47,7 @@ class Plugin extends PuppeteerExtraPlugin {
   }
 
   get name() {
-    return 'stealth/evasions/user-agent-override'
+    return 'custom-fingerprinting/evasions/user-agent-override'
   }
 
   get dependencies() {

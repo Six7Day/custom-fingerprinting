@@ -27,7 +27,7 @@ class Plugin extends PuppeteerExtraPlugin {
   }
 
   get name() {
-    return 'stealth/evasions/chrome.csi'
+    return 'custom-fingerprinting/evasions/chrome.csi'
   }
 
   async onPageCreated(page) {

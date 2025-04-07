@@ -33,7 +33,7 @@ class Plugin extends PuppeteerExtraPlugin {
   }
 
   get name() {
-    return 'stealth/evasions/navigator.vendor'
+    return 'custom-fingerprinting/evasions/navigator.vendor'
   }
 
   get defaults() {

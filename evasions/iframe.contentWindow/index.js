@@ -16,7 +16,7 @@ class Plugin extends PuppeteerExtraPlugin {
   }
 
   get name() {
-    return 'stealth/evasions/iframe.contentWindow'
+    return 'custom-fingerprinting/evasions/iframe.contentWindow'
   }
 
   get requirements() {

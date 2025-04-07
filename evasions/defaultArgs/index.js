@@ -18,7 +18,7 @@ class Plugin extends PuppeteerExtraPlugin {
   }
 
   get name() {
-    return 'stealth/evasions/defaultArgs'
+    return 'custom-fingerprinting/evasions/defaultArgs'
   }
 
   get requirements() {

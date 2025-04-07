@@ -12,7 +12,7 @@ class Plugin extends PuppeteerExtraPlugin {
   }
 
   get name() {
-    return 'stealth/evasions/window.outerdimensions'
+    return 'custom-fingerprinting/evasions/window.outerdimensions'
   }
 
   async onPageCreated(page) {

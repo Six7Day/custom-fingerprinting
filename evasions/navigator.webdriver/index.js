@@ -12,7 +12,7 @@ class Plugin extends PuppeteerExtraPlugin {
   }
 
   get name() {
-    return 'stealth/evasions/navigator.webdriver'
+    return 'custom-fingerprinting/evasions/navigator.webdriver'
   }
 
   async onPageCreated(page) {

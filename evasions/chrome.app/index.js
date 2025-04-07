@@ -13,7 +13,7 @@ class Plugin extends PuppeteerExtraPlugin {
   }
 
   get name() {
-    return 'stealth/evasions/chrome.app'
+    return 'custom-fingerprinting/evasions/chrome.app'
   }
 
   async onPageCreated(page) {

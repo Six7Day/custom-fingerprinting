@@ -69,13 +69,13 @@ const { PuppeteerExtraPlugin } = require('puppeteer-extra-plugin')
  * @param {Set<string>} [opts.enabledEvasions] - Specify which evasions to use (by default all)
  *
  */
-class StealthPlugin extends PuppeteerExtraPlugin {
+class CustomFingerprintingPlugin extends PuppeteerExtraPlugin {
   constructor(opts = {}) {
     super(opts)
   }
 
   get name() {
-    return 'stealth'
+    return 'custom-fingerprinting'
   }
 
   get defaults() {
@@ -111,7 +111,7 @@ class StealthPlugin extends PuppeteerExtraPlugin {
    */
   get dependencies() {
     return new Set(
-      [...this.opts.enabledEvasions].map(e => `${this.name}/evasions/${e}`)
+      [...this.opts.enabledEvasions].map(e => `custom-fingerprinting/evasions/${e}`)
     )
   }
 
@@ -169,7 +169,7 @@ class StealthPlugin extends PuppeteerExtraPlugin {
  * @param {Object} [opts] - Options
  * @param {Set<string>} [opts.enabledEvasions] - Specify which evasions to use (by default all)
  */
-const defaultExport = opts => new StealthPlugin(opts)
+const defaultExport = opts => new CustomFingerprintingPlugin(opts)
 module.exports = defaultExport
 
 // const moduleExport = defaultExport

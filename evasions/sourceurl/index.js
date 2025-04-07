@@ -12,7 +12,7 @@ class Plugin extends PuppeteerExtraPlugin {
   }
 
   get name() {
-    return 'stealth/evasions/sourceurl'
+    return 'custom-fingerprinting/evasions/sourceurl'
   }
 
   async onPageCreated(page) {

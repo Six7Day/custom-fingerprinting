@@ -25,7 +25,7 @@ class Plugin extends PuppeteerExtraPlugin {
   }
 
   get name() {
-    return 'stealth/evasions/chrome.loadTimes'
+    return 'custom-fingerprinting/evasions/chrome.loadTimes'
   }
 
   async onPageCreated(page) {
